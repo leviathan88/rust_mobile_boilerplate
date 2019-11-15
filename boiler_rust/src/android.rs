@@ -7,8 +7,7 @@ use jni::sys::jstring;
 use jni::JNIEnv;
 use std::ffi::CString;
 
-// NOTE: RustKt references the name boiler.kt, which will be the kotlin file exposing the functions below.
-// Remember the JNI naming conventions.
+// BoilerKt references the name boiler.kt, which will be the kotlin file exposing the functions below.
 
 #[no_mangle]
 pub extern "system" fn Java_com_leviathan_boiler_1lib_BoilerKt_hello(
