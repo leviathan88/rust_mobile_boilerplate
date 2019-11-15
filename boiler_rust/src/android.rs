@@ -7,7 +7,7 @@ use jni::sys::jstring;
 use jni::JNIEnv;
 use std::ffi::CString;
 
-// NOTE: RustKt references the name rusty.kt, which will be the kotlin file exposing the functions below.
+// NOTE: RustKt references the name boiler.kt, which will be the kotlin file exposing the functions below.
 // Remember the JNI naming conventions.
 
 #[no_mangle]
